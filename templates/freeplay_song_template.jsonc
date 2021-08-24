@@ -1,0 +1,12 @@
+{
+    "name": "Base Game",
+    "songs": [
+        // template start region
+        {
+            "name": "songname",
+            "character": "charname (must be enemy)",
+            "week": 0
+        }
+        // template end region
+    ]
+}

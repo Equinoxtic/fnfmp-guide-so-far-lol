@@ -1,0 +1,94 @@
+// For static backgrounds
+
+function start(song) {
+    var staticBg = new FlxSprite(x, y).loadGraphic(hscriptPath + 'bg.png');
+    staticBg.scrollFactor.set(float, float);
+    staticBg.antialiasing = true;
+    addSprite(staticBg, BEHIND_ALL);
+    
+    setDefaultZoom(float);
+}
+
+function beatHit(beat)
+{
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}
+
+// for animated backgrounds
+
+function start(song) {
+    var animBg = new FlxSprite(x, y).loadGraphic(hscriptPath + 'animBg.png');
+    animBg.frames = FlxAtlasFrames.fromSparrow(hscriptPath + 'animBg.png', hscriptPath + 'animBg.xml');
+    animBg.animation.addByPrefix('idle', "bg_SHIFT", 0, true);
+    animBg.animation.play('idle', true);
+    animBg.scrollFactor.set(float, float);
+    animBg.antialiasing = true;
+    addSprite(animBg, BEHIND_ALL);
+}
+
+function beatHit(beat)
+{
+}
+
+function update(elapsed)
+{
+}
+
+function stepHit(step)
+{
+}
+
+function playerTwoTurn()
+{
+}
+
+function playerTwoMiss()
+{
+}
+
+function playerTwoSing()
+{
+}
+
+function playerOneTurn()
+{
+}
+
+function playerOneMiss()
+{
+}
+
+function playerOneSing()
+{
+}

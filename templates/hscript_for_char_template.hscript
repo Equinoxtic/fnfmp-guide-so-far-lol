@@ -1,0 +1,38 @@
+function init(char) {
+    trace(": )");
+    var tex = new FlxAtlasFrames.fromSparrow(x, y).loadGraphic(hscriptPath + 'filename.png', hscriptPath + 'filename.xml');
+    trace(": )");
+    char.frames = tex;
+    char.animation.addByPrefix('', "", 0, false);
+    trace("finish anim");
+    
+    char.addOffset('', x, y);
+    
+    char.playAnim('');
+    
+    char.flipX = false;
+    char.flipY = false;
+    
+    char.enemyOffsetX = x;
+    char.enemyOffsetY = y;
+    char.playerOffsetX = x;
+    char.playerOffsetY = y;
+    char.followCamX = x;
+    char.followCamY = y;
+    char.midPointX = x;
+    char.midPointY = y;
+}
+portraitOffset = [x, y];
+dadVar = 0.0
+isPixel = false;
+function update(elapsed, char)
+{
+    // do nothing...
+}
+var danced = false
+function dance(char)
+{
+    trace"(: )");
+    char.playAnim('');
+}
+trace("done");

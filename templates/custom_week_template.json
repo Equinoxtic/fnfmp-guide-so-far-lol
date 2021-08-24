@@ -1,0 +1,14 @@
+{
+    "weeks": [
+        // template start region
+        {
+            "songs": [
+                "songname"
+            ],
+            "name": "weekname",
+            "animation": "week (num)",
+            "dad": "char (must be enemy)"
+        }
+        // template end region
+    ]
+}

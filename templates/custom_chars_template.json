@@ -1,0 +1,7 @@
+{
+    "charname": {
+        "like": "charname",
+        "icons": [0,1,2],
+        "colors": ["#ffffff"]
+    }
+}
